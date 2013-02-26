@@ -3,12 +3,14 @@
 
 #include "stdafx.h"
 #include "iostream"
+#include "conio.h"
 using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
 	cout << "Hello, World";
-	system("PAUSE");
+//system("PAUSE");
+	getch ();
 	return 0;
 }
 
